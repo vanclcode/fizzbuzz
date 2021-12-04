@@ -8,7 +8,7 @@ substitutions = { # substitutions dictionary
     }
 
 for i in range(first, last + 1):
-    jn = True # print just number - neither fizz nor buzz
+    jn = True # print just number - no substitutions are applicable yet
 
     for word, div in substitutions.items():
         # goes through key value pairs for substitution
